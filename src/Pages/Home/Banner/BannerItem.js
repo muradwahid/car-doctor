@@ -24,10 +24,16 @@ const BannerItem = ({slider}) => {
           </div>
         </div>
         <div className="absolute flex justify-end gap-5 transform -translate-y-1/2 left-5 right-5 bottom-0">
-          <a href={`#slide${pre}`} className="btn btn-circle">
+          <a
+            href={`#slide${pre}`}
+            className="btn btn-circle bg-[#ffffff4d] border-0 hover:bg-[#FF3811]"
+          >
             <i className="fa-solid fa-arrow-left-long"></i>
           </a>
-          <a href={`#slide${next}`} className="btn btn-circle">
+          <a
+            href={`#slide${next}`}
+            className="btn btn-circle bg-[#ffffff4d] border-0 hover:bg-[#FF3811]"
+          >
             <i className="fa-solid fa-arrow-right-long"></i>
           </a>
         </div>
